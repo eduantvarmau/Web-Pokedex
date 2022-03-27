@@ -1,0 +1,36 @@
+#imagen {
+    border-radius: 50px;
+    width: 180px;
+    box-shadow: 1px 5px 15px #a2a2a2;
+}
+
+
+/** table scrool**/
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 210px;
+    width: 240px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(91, 250, 144);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 255, 85);
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
